@@ -8,9 +8,9 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blue.shade600,
       appBar: AppBar(
-          centerTitle: true,
-          title: const Text('Navbar'),
-          backgroundColor: Colors.blue,
+        centerTitle: true,
+        title: const Text('Navbar'),
+        backgroundColor: Colors.blue,
       ),
       body: const SafeArea(
         child: Column(
@@ -19,16 +19,18 @@ class Home extends StatelessWidget {
             CircleAvatar(
                 backgroundColor: Colors.white,
                 radius: 50,
-                backgroundImage: NetworkImage('https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')
-            ),
-            Text('Christopher Tineo',
-            style: TextStyle(
-              fontFamily: 'Pacifico',
-              color: Colors.white,
-              fontSize: 40.0,
+                backgroundImage: NetworkImage(
+                    'https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png')),
+            Text(
+              'Christopher Tineo',
+              style: TextStyle(
+                fontFamily: 'Pacifico',
+                color: Colors.white,
+                fontSize: 40.0,
               ),
             ),
-            Text("I'm a frontend developer",
+            Text(
+              "I'm a frontend developer",
               style: TextStyle(
                 fontFamily: 'Roboto',
                 color: Colors.white70,
@@ -51,12 +53,7 @@ class Home extends StatelessWidget {
                     color: Colors.blueGrey,
                   ),
                   title: Text("+1 809 519 7108",
-                      style: TextStyle(
-                          color: Colors.blueGrey,
-                          fontSize: 20
-                      )
-                  )
-              ),
+                      style: TextStyle(color: Colors.blueGrey, fontSize: 20))),
             ),
             Card(
               margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 10.0),
@@ -66,14 +63,8 @@ class Home extends StatelessWidget {
                     color: Colors.blueGrey,
                   ),
                   title: Text("1099919@est.intec.edu.do",
-                      style: TextStyle(
-                          color: Colors.blueGrey,
-                          fontSize: 20
-                      )
-                  )
-              ),
+                      style: TextStyle(color: Colors.blueGrey, fontSize: 20))),
             )
-
           ],
         ),
       ),
